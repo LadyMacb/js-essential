@@ -36,7 +36,15 @@ function addTask() {
             displayTasks();
         }
 
+        function clearAllTasks() {            
+            tasks.splice(0, tasks.length);            
+              displayTasks()  
+  }
+  
+  
+
         addTaskBtn.addEventListener("click", addTask);
 clearCompletedBtn.addEventListener("click", clearCompletedTasks);
+clearAllBtn.addEventListener("click", clearAllTasks);
 
  displayTasks();
