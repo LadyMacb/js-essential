@@ -2,7 +2,7 @@ function showWeatherDetails(event) {
     event.preventDefault();
 
     const city = document.getElementById('city').value;
-    const apiKey = '92bb730465aaddf0393d1c2917f63dad'; // Replace 'YOUR_API_KEY' with your actual API key
+    const apiKey = 'xxx'; // Replace 'YOUR_API_KEY' with your actual API key
     const lat = document.getElementById("lat").value;
     const long = document.getElementById("long").value;
     let apiUrl;
